@@ -34,12 +34,15 @@ Faça o upload do arquivo app_economia.ipynb para o seu Google Drive e abra-o no
 ### 2. Configurar o Ngrok Auth Token
 
 Você precisará de um Auth Token do Ngrok. Cadastre-se em ngrok.com e copie seu token na seção "Your Authtoken".
+
+```
 NGROK_AUTH_TOKEN = "SEU_AUTHTOKEN_REAL_AQUI" # <<<<<< AQUI É ONDE VOCÊ COLA O TOKEN
+```
 
 ### 3. Estrutura de Pastas dos Dados
 
 Certifique-se de que seus arquivos de dados e mapa estejam nas seguintes pastas dentro do seu Google Drive, acessíveis pelo Colab:
-
+```
 Meu Drive/
 └── Economia/
     ├── app_economia.py
@@ -53,7 +56,7 @@ Meu Drive/
         ├── ne_110m_admin_0_countries.dbf
         ├── ne_110m_admin_0_countries.prj
         └── ne_110m_admin_0_countries.cpg
-
+```
 O notebook já configura o app.py para ser salvo em /content/drive/MyDrive/Economia/app.py, e os diretórios DADOS_DIR e MAPA_DIR são definidos para /content/drive/MyDrive/Economia/dados e /content/drive/MyDrive/Economia/mapa respectivamente.
 
 ### 4. Rodar o aplicativo 
