@@ -62,7 +62,7 @@ Execute todas as células do notebook sequencialmente. A última célula irá in
 
 ### 📚 Fontes dos Dados:
 
-Numbeo (preços de alimentos por país): https://www.numbeo.com/cost-of-living/. 
-ILO (salário-mínimo por país): https://ilostat.ilo.org/topics/wages/ 
-Banco Mundial – Indicadores econômicos: https://data.worldbank.org 
+* Numbeo (preços de alimentos por país): https://www.numbeo.com/cost-of-living/. 
+* ILO (salário-mínimo por país): https://ilostat.ilo.org/topics/wages/ 
+* Banco Mundial – Indicadores econômicos: https://data.worldbank.org 
 
